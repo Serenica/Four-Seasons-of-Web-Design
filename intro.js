@@ -3,9 +3,25 @@ no.addEventListener("click",function(){
 })
 
 fall.addEventListener("click",function(){
-    console.log("Started Fall");
+    console.log("started fall");
     document.getElementById("banner").src = "fall.jpg";
-    document.getElementById("default").style.display="none";
-    document.getElementById("fall").style.display = "initial";
     document.body.classList.toggle('fall');
     })
+
+    spring.addEventListener("click",function(){
+        console.log("started spring");
+        document.getElementById("banner").src = "spring.jpg";
+        document.body.classList.toggle('spring');
+        })
+
+        winter.addEventListener("click",function(){
+            console.log("started winter");
+            document.getElementById("banner").src = "winter.jpg";
+            document.body.classList.toggle('winter');
+            })
+
+            summer.addEventListener("click",function(){
+                console.log("started summer");
+                document.getElementById("banner").src = "summer.jpg";
+                document.body.classList.toggle('summer');
+                })
