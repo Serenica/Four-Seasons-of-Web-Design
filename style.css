@@ -1,0 +1,7 @@
+#banner{
+    width: 700px;
+    height: 430px;
+    float: left;
+    margin-right: 4rem;
+    box-shadow: 8px 8px 30px 8px #000;
+}
